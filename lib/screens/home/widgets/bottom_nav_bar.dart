@@ -31,19 +31,19 @@ class _FBottomBarState extends State<FBottomBar> {
         ),
         BottomNavigationBarItem(
           icon: Icon(
-            Iconsax.heart_outline,
+            Iconsax.heart_add_bold,
           ),
           label: "WISHLIST",
         ),
         BottomNavigationBarItem(
           icon: Icon(
-            Iconsax.shopping_bag_outline,
+            Iconsax.shopping_bag_bold,
           ),
           label: "ORDER",
         ),
         BottomNavigationBarItem(
           icon: Icon(
-            Iconsax.user_outline,
+            Iconsax.user_add_bold,
           ),
           label: "ACCOUNT",
         ),
