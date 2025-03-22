@@ -20,12 +20,16 @@ class _HomeState extends State<Home> {
     DemoAPI(),
     Container(
       height: double.infinity,
-      color: Colors.blue,
+      color: Colors.greenAccent,
     ),
     Container(
       height: double.infinity,
-      color: Colors.red,
+      color: Colors.deepPurple,
     ),
+    Container(
+      height: double.infinity,
+      color: Colors.redAccent,
+    )
   ];
 
   void _onTapMethod(int index) {

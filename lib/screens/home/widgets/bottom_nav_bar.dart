@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:icons_plus/icons_plus.dart';
 
-class FBottomBar extends StatelessWidget {
+class FBottomBar extends StatefulWidget {
   const FBottomBar({
     super.key,
     required this.currentIndex,
@@ -12,10 +12,15 @@ class FBottomBar extends StatelessWidget {
   final Function(int) onTapMethod;
 
   @override
+  State<FBottomBar> createState() => _FBottomBarState();
+}
+
+class _FBottomBarState extends State<FBottomBar> {
+  @override
   Widget build(BuildContext context) {
     return BottomNavigationBar(
-      currentIndex: currentIndex,
-      onTap: onTapMethod,
+      currentIndex: widget.currentIndex,
+      onTap: widget.onTapMethod,
       type: BottomNavigationBarType.fixed,
       items: [
         BottomNavigationBarItem(
