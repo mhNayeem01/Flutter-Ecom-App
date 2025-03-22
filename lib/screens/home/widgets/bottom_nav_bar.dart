@@ -20,7 +20,7 @@ class FBottomBar extends StatelessWidget {
       items: [
         BottomNavigationBarItem(
           icon: Icon(
-            Iconsax.home_outline,
+            Iconsax.home_1_bold,
           ),
           label: "HOME",
         ),
