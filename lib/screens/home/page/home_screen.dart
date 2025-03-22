@@ -36,19 +36,19 @@ class HomeScreen extends StatelessWidget {
             // Product Image
             Center(
               child: Image.network(
-                'https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/1.png', // Replace with actual image URL
+                'https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', // Replace with actual image URL
               ),
             ),
             SizedBox(height: 12),
             // Product Name
             Text(
-              'TMA-2 HD Wireless',
+              'Nike Sports Shoe ',
               style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
             ),
             SizedBox(height: 4),
             // Price
             Text(
-              '\$ 1000.00',
+              '\$ 99.00',
               style: TextStyle(
                 color: Colors.red,
                 fontWeight: FontWeight.bold,
@@ -82,10 +82,6 @@ class HomeScreen extends StatelessWidget {
             ),
             SizedBox(height: 8),
             // Three-dot menu (for additional actions)
-            Align(
-              alignment: Alignment.centerRight,
-              child: Icon(Icons.more_vert, color: Colors.grey),
-            ),
           ],
         ),
       ),
